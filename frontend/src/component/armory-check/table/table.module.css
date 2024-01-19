@@ -1,0 +1,53 @@
+.dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #e3e2e2;
+    border-top: 15px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+    max-width: 800px; /* reduce max-width to make it smaller */
+    margin-top: 30px; /* add margin-top to center it vertically */
+  }
+  
+  th,
+  td {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #ffffff;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  
+  tbody tr:nth-of-type(even) {
+    background-color: #ffffff89;
+    color: rgba(56, 56, 56, 0.852);
+    
+  }
+  
+  tbody tr:nth-of-type(odd) {
+    background-color: #ffffff89;
+    color: rgba(56, 56, 56, 0.852);
+  }
+  
+  tbody tr:hover {
+    background-color: #cfc9c93a;
+    
+  }
+  
+  .container{
+    height: 454px;
+  }
+
+  .statusActive {
+    background-color: rgb(69, 208, 69);
+    color: black;
+  }
+  
+  .statusInactive {
+    background-color: rgb(255, 69, 69);
+    color: black;
+  }

@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-color: #fff;
+  font-size: 1.5rem;
+  z-index: 1;
+}
+
+.navbar_container {
+  display: flex;
+  align-items: center;
+  background-color: #234F1E;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar_logo {
+  display: inline-block;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 24px;
+  font-weight: bold;
+}
+
+.navbar_armanent {
+  display: inline-block;
+  text-decoration: none;
+  color: #FFD500;
+  font-size: 2rem;
+  margin-left: 12px;
+  font-weight: bold;
+}
+
+.navbar_guard{
+  display: inline-block;
+  text-decoration: none;
+  color: #FFD500;
+  font-size: 2rem;
+  margin-left: 69rem;
+  font-weight: bold;
+  z-index: 1;
+}
+

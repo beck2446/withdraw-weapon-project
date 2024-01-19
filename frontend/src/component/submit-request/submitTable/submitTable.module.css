@@ -1,0 +1,110 @@
+.wrapper {
+    margin-top: 60px;
+}
+.header h1 {
+    padding-top: 30px;
+    padding-left: 60px;
+    font-weight: normal;
+}
+
+.row {
+    width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.row h2 {
+    font-weight: normal;
+}
+
+.row p {
+    font-size: 1.2rem;
+}
+
+.button button {
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    color: white;
+    border-radius: 10px;
+    background-color: #C7E8CA;
+    border: none;
+}
+
+.buttonNext {
+    position: relative;
+    left: 85%;
+    cursor: pointer;
+    height: 40px;
+    width: 90px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: #C7E8CA;
+    border: none;
+    font-size: 1.2rem;
+}
+
+div.row > div {
+    display: flex;
+    justify-content: center;
+    width: 215px;
+}
+
+.amout_wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.del button,.add button {
+    background-color: #C7E8CA;
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.del button:hover,.add button:hover {
+    cursor: pointer;
+}
+
+.table_wrapper {
+    width: 84%;
+    margin: 0 auto;
+    background-color: #FFF8D6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+}
+
+div.row:first-of-type {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.row:not(:first-of-type) {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.hr {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 2px;
+}
+
+.input_date {
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.1rem;
+    height:30px;
+}
+
+
+
+  
+  
+  

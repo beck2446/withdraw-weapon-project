@@ -1,0 +1,16 @@
+.Title{
+    font-weight: normal;
+    margin: 0px;
+    text-align: left ;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.line{
+    background-color: rgba(128, 128, 128, 0.646);
+    height: 2px;
+    opacity: 80%;
+    margin-top: 15px;
+    width: 1360px;
+    margin-left: 88px;
+}
